@@ -11,17 +11,17 @@ import fs from 'fs';
 
 
 // Personal modules imports
-import { Logger, logMoment } from './src/logger/logger.js';
-// import * as CONST from './src/Helpers/CONSTANTS.js';
+import { Logger, logMoment } from './logger/logger.js';
+// import * as CONST from './Helpers/CONSTANTS.js';
 
 // dotenv config to get access to all environment variables
 dotenv.config();
 
 // Adding the routes
-import postRoutes from './src/routes/post.js';
-import authRoutes from './src/routes/auth.js';
-import userRoutes from './src/routes/user.js';
-import { checkSigninToken } from './src/controllers/auth.js';
+import postRoutes from './routes/post.js';
+import authRoutes from './routes/auth.js';
+import userRoutes from './routes/user.js';
+import { checkSigninToken } from './controllers/auth.js';
 
 // Constants definition
 const app = express();
