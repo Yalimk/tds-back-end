@@ -1,0 +1,12 @@
+{
+  "/": "(GET) Charger la page d'accueil qui est aussi la salle de tchat Taverne",
+  "/signup": "(POST) Créer un compte sur la Taverne",
+  "/signin": "(POST) Se connecter à la Taverne",
+  "signout": "(POST) Se déconnecter de la Taverne",
+  "/users": "(GET) Afficher tous les utilisateurs enregistrés",
+  "/user/:userId": "(GET/PUT/DELETE) Afficher/Modifier/Supprimer les infos de l'utilisateur dont l'id est renseigné en paramètre de la requête",
+  "/posts": "(GET) Récupérer les informations de tous les posts de la Taverne",
+  "/post/new/:userId": "(POST) Créer un nouveau poste pour l'utilisateur dont l'id est renseigné en paramètre de la requête",
+  "/posts/by/:userId": "(GET) Récuperer tous les posts de l'utilisateur dont l'id est renseigné en paramètre de la requête",
+  "/post/:postId": "(PUT/DELETE) Modifier/Supprimer le post dont l'id est renseigné en paramètre de la requête"
+}
