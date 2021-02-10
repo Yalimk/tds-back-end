@@ -55,7 +55,7 @@ mongoose.connection.on('error', (err) => {
 });
 
 // apiDocs
-app.get('/api', (req, res) => {
+app.get('/tds', (req, res) => {
   fs.readFile('./docs/api-docs.json', (err, data) => {
     if (err) {
       return res.status(400).json({
